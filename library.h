@@ -1,7 +1,7 @@
 #include <stdint.h>
 
-typedef struct Foo_s {
+struct Foo_s {
     uint16_t bar;
-} Foo;
+};
 
-void by_ptr(Foo *foo);
+void by_ptr(struct Foo_s *foo);
